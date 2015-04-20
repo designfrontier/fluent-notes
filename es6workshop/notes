@@ -1,1 +1,6 @@
+Kandax => es6 feature table with support
+
+variables and scoping:
+let vs var vs const.
+const gives you immutable variables... for variables that do not change
 
