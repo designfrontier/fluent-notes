@@ -1,0 +1,18 @@
+Cooking and functional programming... 
+
+We often add unneeded things for histroical reasons making our code much more complex then it needs to be
+
+optimizing for developer time... <= this is important. We talk about other types of performance too much
+
+currying:
+turning a function with n arguments into n functions with 1 argument
+
+combinatory logic <= read about this
+
+point free style <= also read about this
+
+events and functional programming... hmmm... interesting idea
+
+Monads:
+can chain things into sequences when sequence is important
+
