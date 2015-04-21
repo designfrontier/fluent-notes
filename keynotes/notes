@@ -1,0 +1,68 @@
+Paul Irish
+-----------------------------
+What metric matters when measuring slow?
+
+100ms -> Instantaneous
+1000ms -> maintains stream of thought
+10s -> lost the user completely
+
+Four phases of user experience
+1) Loading
+2) Response
+3) Scrolling/Animation (60fps)
+4) Idle (user expects that it will be ready when it decides to start interacting with the page)
+
+RAIL performance model (Response Animation Idle Loading)
+
+R - Tap to paint < 100ms, touchmove to paint < 16ms
+A - 60fps (<16ms)
+I - main thread js work completes in 50ms chunks
+L - ready to use in 1000ms, satisfy the response goals during full load
+
+New chrome dev tools for measuring performance better coming soon
+
+
+
+Andreas Gal
+-----------------------------
+you can't guess what code is faster. Test it.
+
+position:absolute makes rendering faster for items that need to be moved in animations.
+
+translation & alpha are super fast.
+
+scaling is expensive... composite instead
+
+Video not animated gifs <- bad for browser memory usage
+
+strokes are slow also
+
+
+
+Bill Scott
+-----------------------------
+*this talk is a good one for Blaine to see
+
+The UI layer is the experimentation layer
+
+
+
+Brendan Eich
+-----------------------------
+SharedWorkers for threading with shared memory... but the next line is better
+
+SharedArrayBuffer is coming for sharing contents of a buffer between a set of workers. <= rad
+
+SharedArrayBuffer is now in Firefox and almost in Chrome
+
+
+Stewart Nickolas
+-----------------------------
+
+
+
+Kathy Sierra
+-----------------------------
+very high quantity of very high quality examples to help with an order of magnitude jump. 300-400 in a compressed time frame gets people there.
+
+This helps the brain move beyond the simple surface details.
