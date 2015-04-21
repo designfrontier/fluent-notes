@@ -1,0 +1,33 @@
+anything ouside of your repository is a remote in git.
+
+
+git branch --no-merged <= shows you which branches have not been merged
+
+git --amend -m  <= let's you fix typoes and messages in git for previous commit
+
+git reflog <= coolness
+s
+git rebase --interactive HEAD^^^ (each ^ is a commit before the current commit)
+
+git reset --mixed <= resets the staging area but not the file system
+
+git stash save 'name for the stash goes here' <= nice
+
+git L3,5 blame <= show blame for just lines 3-5.
+
+
+The purpose of git bisect is a tool for checking where something broke. Not for changing what went wrong.
+git bisect start
+git bisect bad
+git bisect good {commit hash of a known good commit}
+git bisect reset
+
+rebase things that you rebased.
+git pull --rebase
+If you are going to rebase then do it all the time. not just some of the time.
+git config branch.master.rebase true
+git config branch.autosetuprebase always <= always use rebase for new branches
+
+cherry-picking
+-----------------
+only cherry-pick from branches that you are going to delete... merging them in wreaks havoc on your git repo/history.
