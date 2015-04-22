@@ -1,0 +1,9 @@
+
+Keep functions under 600 characters... weird <= comments count against char count
+
+--max_inlined_source_size let's you change the size of the functions that can be inlined. Changes the 600 char limit
+%SetFlags("--max_inlined_source_size=1000") <-- can be inside node function call
+
+--allow-natives-syntax <-- allows the above stuff to work
+
+github.com/thlorenz/v8-flags  <-- read this
