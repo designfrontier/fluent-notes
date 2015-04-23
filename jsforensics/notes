@@ -1,0 +1,10 @@
+crossorigin="anonymous"  <-- add this to script tags to allow you to see the real errors and stacktrace that are loaded from a different domain
+
+function hoisting is often the cause of errors.
+Third Party scripts are a possible source of errors. They are risky.
+
+callstack async checkbox does cool stuff with async functions/anon functions.
+
+error implementation is different in different browsers. They will generally show different messages for the same error.
+
+loading errors are more common then you think. When one script fails to load how does your application fail? Need to have ways to handle bad loads of scripts. Mobile exaserbates this situation.

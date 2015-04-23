@@ -1,0 +1,20 @@
+tools:
+cookie cadger <- session hijacking
+https://www.cookiecadger.com/
+
+Qualys ssl checker
+https://www.ssllabs.com/ssltest/?_ga=1.68563409.1998881531.1429745802
+
+asafaweb <- asp.net and others
+http://www.google.com/transparencyreport/saferemail/
+
+cookie invalidation is essential to security.
+
+username enumeration... how big of a problem is this?
+
+don't leak information in the url or error messages.
+
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0; <- for sensitive information make sure this is handled.
+
+watch out for userids in the url and make sure that the stuff is locked down appropriately.
+

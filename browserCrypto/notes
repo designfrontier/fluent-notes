@@ -1,0 +1,24 @@
+crypto api!!!
+
+crypto.sublte.encrypt returns a promise.
+
+Have to have a CryptoKey object for the key in above. CryptoKey can only be created by the API
+
+var message = TextEncoder("utf-8").encode('my string goes here...');
+
+key = crypto.sublte.importKey('raw', keyBuffer, {name: 'AES-CBC'}, false, ["encrypt", "decrypt"])
+
+window.crypto.subtle.encrypt({name: "AES-CBC", iv: initVec}, )
+
+crypto.subtle.encrypt()
+
+Section 19 is the list of Algorithms.
+Section 14 he interface
+
+useful: pkijs.org and asn1js.org
+
+Stanford Crypto online Course -> do this
+
+Slide URL:
+engelke.com/fluent
+blog.engelke.com/webcrypto

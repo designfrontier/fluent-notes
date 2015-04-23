@@ -1,0 +1,37 @@
+durable code is written for developers
+
+put the Why in your comments not the how or what.
+
+Clarity > tiny bits of efficiency
+
+Weed the garden <- take out and refactor as you are in files.
+Red Diff FTW!
+
+The Two Pillars of Javascript - Eric Elliot (read it)
+
+use quasi-modularity to get on the right path to modularity.
+
+modularize based on volatility (Zen of Software Architeecture - Orielly podcast)
+
+be provident in your use of testing
+
+project growth curve and upgrade 12-18 months out. Stay ahead of it.
+
+Think globally and massive from the start
+Unicode support y'all
+
+Multi-languages are foundational... don't put them off.
+
+Build your tools. Just do it
+
+Criticlal Rendering path - High Performance Browser Networking http://chimera.labs.oreilly.com/books/1230000000545/index.html
+
+Starbucks as an example of async event processing <- cool
+
+It is your job to figure out what your user is looking for through research and testing. Read Design of Everyday Things.
+
+Feedback from direct channels is probably the most critical. If a user takes the time to contact you then take notice and do something about it.
+
+Social media is only growing. (I wonder if this is what ends up killing google?)
+
+users get tunnel vision and don't tend to notice changes outside their task focused vision.

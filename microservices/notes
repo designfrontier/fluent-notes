@@ -1,0 +1,37 @@
+MSA = decentralized service development (YES!!!)
+
+MSA = DevOPS + SOA
+
+Self Contained service with a "single job to be done"
+
+deploy 50 times per day... 25 to prod.
+
+http service boundaries make things easy because of the existing tools out there.
+
+treat network down as the base state of the network. Isolate your breakage.
+
+Reduce cognitive overhead.
+Uniform Interfaces!!!
+
+3 major challenges:
+1) Creating a service
+	Lots of effort to create a service from scratch. They created a python library that allows you to build a rest service really quickly
+		Builtin health check/heartbeat endpoint
+		common logging and metrics frameworks
+		simple dependency management.
+
+	Best language for the job folks. Best languages for the job.
+2) Language Agnostic
+	http, rest, syslog and statsd.
+
+	service discovery to find the correct service without knowing the server name in code.
+
+	Look at HAproxy these guys are doing some amazing stuff with service discovery
+
+	github.com/runscope has their healthcheck software...
+
+If you are sharing things (code) then you might want to break down your service to something smaller. Sharing is a service.
+
+ Aggregation layers. wurd.
+
+ runscope <- cool company

@@ -1,0 +1,18 @@
+motion in the user interface
+
+shake as a negative
+
+guiding the eye through animations
+
+prgressive disclosure... think about Brad Frost's CC entry form
+
+interpolation: what has changed since this animation started
+
+linear animation looks very unnatural to humans because of physics
+
+use trig to create cool easing functions. <- brush up on trig
+
+tween.js & greensock. Many things can be done with just CSS at this point. Start there.
+
+Chrome web inspector let's you play with easing functions in the browser
+
